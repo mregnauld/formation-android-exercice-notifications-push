@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "871108021293",
+    "firebase_url": "https://formation-android-notif-push.firebaseio.com",
+    "project_id": "formation-android-notif-push",
+    "storage_bucket": "formation-android-notif-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871108021293:android:506aa042450641c8867ca4",
+        "android_client_info": {
+          "package_name": "com.formationandroid.notificationspush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871108021293-q63sdhq9krfiormn9kpo6gqv7qh7sov4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurg1Xsgn5NebbiTZnRpIBmOU5RidqNCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871108021293-q63sdhq9krfiormn9kpo6gqv7qh7sov4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

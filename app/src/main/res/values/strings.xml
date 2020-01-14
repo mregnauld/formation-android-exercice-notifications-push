@@ -1,0 +1,11 @@
+<resources>
+
+	<!-- Commun -->
+	<string name="app_name">Notifications Push</string>
+	<string name="libelle_actionbar">Messagerie</string>
+
+	<!-- MainActivity -->
+	<string name="libelle_bouton_envoyer">Envoyer</string>
+	<string name="libelle_token_non_recu">Token non encore reçu</string>
+
+</resources>
