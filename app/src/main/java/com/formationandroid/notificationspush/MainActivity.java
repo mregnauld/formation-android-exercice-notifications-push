@@ -25,6 +25,9 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity
 {
 	
+	// Constantes :
+	private static final String TAG = MainActivity.class.getSimpleName();
+	
 	// broadcast receiver :
 	private PushBroadcastReceiver pushBroadcastReceiver = null;
 	
@@ -124,13 +127,13 @@ public class MainActivity extends AppCompatActivity
 				@Override
 				public void onSuccess(int statusCode, Header[] headers, byte[] response)
 				{
-					Log.i("Flog", new String(response));
+					Log.i(TAG, new String(response));
 				}
 				
 				@Override
 				public void onFailure(int statusCode, Header[] headers, byte[] errorResponse, Throwable e)
 				{
-					Log.e("Flog", e.toString());
+					Log.e(TAG, e.toString());
 				}
 			});
 		}
